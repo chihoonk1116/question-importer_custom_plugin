@@ -26,12 +26,12 @@ class CVSConverterToPost{
         );
 
         // add_submenu_page(
-        //     'question-importer',           // 부모 슬러그
-        //     'Converter',           // 페이지 타이틀
-        //     'Converter',           // 메뉴 타이틀
-        //     'manage_options',         // 권한
-        //     'converter',    // 슬러그
-        //     [$this, 'converter_page']// 콜백
+        //     'question-importer',           // parent slug
+        //     'Converter',           // page title
+        //     'Converter',           // menu title
+        //     'manage_options',         // permission
+        //     'converter',    // slug
+        //     [$this, 'converter_page']// callback
         // );
     }
 
